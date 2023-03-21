@@ -1,0 +1,3 @@
+Tema: sa continuam sa afisam si restul la register.
+ps. sa utilizam formulare cu metoda POST
+adaugam navigatia sa functioneze intre pagini

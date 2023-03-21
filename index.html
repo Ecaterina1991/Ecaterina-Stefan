@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Pagina de Blog</title>
+  </head>
+  <body>
+    <!-- Adaugam un container div cu valoarea header -->
+    <div>
+      <header>
+        <!-- Am adaugat imaginea 
+        src => sursa unde se afla imagine
+        alt = element optional la fel si title
+        => ne va indica daca nu apare imaginea incarcata
+        -->
+        <img src="" alt="logo" title="logo" />
+
+        <h2>Primul meu blog</h2>
+      </header>
+
+      <nav>
+        <!-- lista neordonata-->
+        <ul>
+          <!-- am scris tagul li la lista -->
+          <li>
+            <!-- am adaugat tagul li de la lista  -->
+            <a href="pages/despre_mine.html">Despre mine</a>
+            <a href="pages/portofoliu.html">Portofoliu</a>
+            <a href="pages/registru.html">Inregistrare</a>
+            <a href="pages/despre_mine.html">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+    <div>
+      <section id="prima_section">
+        <p>
+          Numele meu este <span class="nume_sectiune">Ecaterina</span>
+          <br />
+          <span class="nume_sub_nume">si sunt studenta</span>
+        </p>
+      </section>
+
+      <section id="a_doua_sectiune">
+        <img src="assets/img/img1.jpg" alt="o fotografie cu mine" title="eu" />
+        <br />
+        <p style="color: red; font-size: 20px">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut optio
+          quisquam hic. Amet perspiciatis nobis quae illum blanditiis ullam
+          voluptatibus aliquid molestias doloremque ex, nihil magnam ut
+          repellendus voluptate iste? Lorem ipsum dolor, sit amet consectetur
+          adipisicing elit. Aut optio quisquam hic. Amet perspiciatis nobis quae
+          illum blanditiis ullam voluptatibus aliquid molestias doloremque ex,
+          nihil magnam ut repellendus voluptate iste?
+        </p>
+      </section>
+    </div>
+
+    <div>
+      <section id="footer">
+        <footer><p>Copyright &copy; Learn PHP 2023</p></footer>
+      </section>
+    </div>
+  </body>
+</html>
