@@ -10,12 +10,64 @@
       <nav>
         <ul>
           <li><a href="../index.html">Pagina de index</a></li>
-          <li><a href="../despre-mine.html">Despre mine</a></li>
-          <li><a href="../portofoliu.html">Portofoliu</a></li>
-          <li><a href="../contact.html">Contact</a></li>
+          <li><a href="./despre_mine.html">Despre mine</a></li>
+          <li><a href="./portofoliu.html">Portofoliu</a></li>
+          <li><a href="./contact.html">Contact</a></li>
         </ul>
       </nav>
     </div>
     <h2>Functioneaza, Înregistrare (text verificare functionalitate)</h2>
+
+    <hr />
+
+    <h2>Formular de înregistrare</h2>
+    <form action="script.php" method="Post">
+      <label for="nume">Nume:</label>
+      <input
+        type="text"
+        id="nume"
+        name="nume"
+        placeholder="Introduceti numele!"
+        required
+      />
+      <br />
+      <label for="prenume">Prenume</label>
+      <input
+        type="text"
+        id="prenume"
+        name="prenume"
+        placeholder="Introduceti prenumele!"
+        required
+      />
+      <br />
+      <label for="email">Email:</label>
+      <input
+        type="email"
+        id="email"
+        name="email"
+        placeholder="Introduceti emailul!"
+        required
+      />
+      <br />
+      <label for="parola">Parola</label>
+      <input
+        type="password"
+        id="parola"
+        name="parola"
+        placeholder="Parola cu minim 7 caractere"
+        required
+      />
+      <br />
+      <label for="confirm_parola">Confirma parola</label>
+      <input
+        type="password"
+        id="confirm_parola"
+        name="confirm-parola"
+        placeholder="Repetati introducerea parolei"
+        required
+      />
+      <br />
+      <input type="submit" value="Submit" />
+    </form>
   </body>
 </html>
