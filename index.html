@@ -9,18 +9,24 @@
   </head>
   <body>
     <!-- Adaugam un container div cu valoarea header -->
-    <div>
-      <header>
+    <div class="header_nav_wrapper">
+      <header class="header_logo_main_title">
         <!-- Am adaugat imaginea 
         src => sursa unde se afla imagine
         alt = element optional la fel si title
         => ne va indica daca nu apare imaginea incarcata
         -->
-        <img src="assets/img/es.png" alt="logo" title="logo" width="150px" />
-        <h2>Primul meu blog</h2>
+        <img
+          class="logo"
+          src="assets/img/es.png"
+          alt="logo"
+          title="logo"
+          width="150px"
+        />
+        <h2 class="main_title">Primul meu blog</h2>
       </header>
 
-      <nav>
+      <nav class="nav_bar">
         <!-- lista neordonata-->
         <ul>
           <!-- am scris tagul li la lista -->
@@ -35,8 +41,10 @@
       </nav>
     </div>
 
-    <div>
-      <section id="prima_section">
+    <hr />
+
+    <div class="2_sectiuni_index_wrapper">
+      <section id="prima_sectiune">
         <p>
           Numele meu este <span class="nume_sectiune">Ecaterina</span>
           <br />
@@ -55,7 +63,7 @@
         />
         <br />
 
-        <p>
+        <p class="text_a_doua_sectiune">
           Am crescut iubind frumosul sub toate formele sale și având o intuiție
           înnăscută pentru armonie. În fiecare proiect pun pasiune, găsind cheia
           de mijloc între ceea ce își dorește utilizatorul și cea mai bună formă
@@ -67,11 +75,14 @@
       </section>
     </div>
 
+    <hr />
+
     <div>
       <section class="footer">
         <footer>
           <p>
-            <span><strong>Să ne conectăm!</strong></span> <br />
+            <span class="titlu_footer"><strong>Să ne conectăm!</strong></span>
+            <br />
             <br />
 
             Dacă aveți întrebări sau dacă doriți să revizuiți mai multe din
@@ -79,13 +90,13 @@
             pagina ”Contact” sau prin e-mail la barganecaterina@yahoo.com. De
             asemenea, puteți găsi portofoliul meu și alte informații de contact
             pe contul meu
-            <span
+            <span class="github_link"
               ><a href=" https://github.com/Ecaterina1991" target="_blank"
                 >GitHub</a
               ></span
             >
             și contul meu
-            <span
+            <span class="linkedin_link"
               ><a
                 href="https://www.linkedin.com/in/ecaterina-stefan-01a05b58/"
                 target="_blank"
@@ -95,7 +106,7 @@
             >. Vă mulțumesc pentru că m-ați luat în considerare pentru proiectul
             dumneavoastră!
           </p>
-          <p>Copyright &copy; Learn PHP 2023</p>
+          <p class="copyright">Copyright &copy; Learn PHP 2023</p>
         </footer>
       </section>
     </div>

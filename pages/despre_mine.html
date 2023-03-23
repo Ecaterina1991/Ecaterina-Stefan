@@ -8,14 +8,13 @@
     <title>Despre mine</title>
   </head>
   <body>
-    <div>
-      <header>
-        <img src="../assets/img/es.png" alt="logo" title="logo" width="150px" />
-        <h2>Despre mine</h2>
-      </header>
-    </div>
-    <div id="nav">
-      <nav>
+    <div class="header_nav_wrapper">
+      <header class="header_logo_main_title">
+        <img class="logo" src="../assets/img/es.png" alt="logo" title="logo" width="150px" />
+        <h2 class="main_title">Despre mine</h2>
+     </header>
+   
+      <nav class="nav_bar">
         <ul>
           <li><a href="../index.html">Pagina de index</a>
           <a href="./portofoliu.html">Portofoliu</a>
@@ -23,21 +22,21 @@
           <a href="./contact.html">Contact</a></li>
         </ul>
       </nav>
-    </div>
+     </div>
+    
+    <div class="sectiunea_cv_wrapper">
+    <section class="sectiunea_cv">  
 
-    <div>
-    <section>  
-
-      <div>
-        <img src="../assets/img/foto2.jpg" alt="Fotografia mea de CV" title="foto-CV" width="250px">
+      <div class="imagine_cv_wrapper">
+        <img class="imagine_cv" src="../assets/img/foto2.jpg" alt="Fotografia mea de CV" title="foto-CV" width="250px">
       </div>
 
       <br>
- <h2>Ecaterina Ștefan</h2>
+ <h2 class="nume_cv">Ecaterina Ștefan</h2>
  <br>
      
       <!-- Inserez o lista de definitie inauntrul careia inserez alte liste neordonate prin imbricarea listelor in elementul dd al listei initiale -->
-<dl>
+<dl class="lista_cv">
   <dt>
     INFORMAȚII PERSONALE
     <!-- singurul element dd de la informatii personale -->
@@ -190,7 +189,7 @@
     ALTE DISTINCȚII
     <dd> 
       <ul>
-        <li>Patru <span><a href="https://sites.google.com/view/ecaterinas-portofolio/my-art/my-poetry" target="_blank">volume de poezie</a></span>
+        <li>Patru <span class="poezie"><a href="https://sites.google.com/view/ecaterinas-portofolio/my-art/my-poetry" target="_blank">volume de poezie</a></span>
            publicate la diverse edituri.</li>
            <li>Colaborare pe termen lung cu reviste literare; prezență în numeroase antologii colective.</li>
         <li>Premiul Național pentru Tineret în domeniul Literaturii (2012).</li>
@@ -201,20 +200,22 @@
     </section>
   </div>
 
+  <hr>
+
    
   <div>
     <section class="footer">
       <footer>
       <p>
-        <span><strong>Să ne conectăm!</strong></span> <br />
+        <span class="titlu_footer"><strong>Să ne conectăm!</strong></span> <br />
         <br />
 
         Dacă aveți întrebări sau dacă doriți să revizuiți mai multe din munca
         mea, vă rog să nu ezitați să mă contactați prin formularul din pagina ”Contact” sau prin e-mail la
         barganecaterina@yahoo.com. De asemenea, puteți găsi portofoliul meu și
         alte informații de contact pe contul meu
-        <span><a href=" https://github.com/Ecaterina1991" target="_blank">GitHub</a></span> și
-        contul meu <span
+        <span class="github_link"><a href=" https://github.com/Ecaterina1991" target="_blank">GitHub</a></span> și
+        contul meu <span class="linkedin_link"
           ><a href="https://www.linkedin.com/in/ecaterina-stefan-01a05b58/" target="_blank">
             linkedin</a
           ></span
@@ -222,8 +223,8 @@
         Vă mulțumesc pentru că m-ați luat în considerare pentru proiectul
         dumneavoastră!
       </p>
-      <p>Copyright &copy; Learn PHP 2023</p></footer>
+      <p class="copyright">Copyright &copy; Learn PHP 2023</p></footer>
     </section>
-  </div>
+   </div>
   </body>
 </html>

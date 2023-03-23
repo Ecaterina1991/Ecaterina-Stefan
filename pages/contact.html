@@ -8,14 +8,19 @@
     <title>Contact</title>
   </head>
   <body>
-    <div>
-      <header>
-        <img src="../assets/img/es.png" alt="logo" title="logo" width="150px" />
-        <h2>Contact</h2>
+    <div class="header_nav_wrapper">
+      <header class="header_logo_main_title">
+        <img
+          class="logo"
+          src="../assets/img/es.png"
+          alt="logo"
+          title="logo"
+          width="150px"
+        />
+        <h2 class="main_title">Contact</h2>
       </header>
-    </div>
-    <div id="nav">
-      <nav>
+
+      <nav class="nav_bar">
         <ul>
           <li>
             <a href="../index.html">Pagina de index</a>
@@ -27,10 +32,13 @@
       </nav>
     </div>
 
+    <hr />
+
     <div id="form">
       <form action="#" method="get">
-        Utilizator:
+        <label class="utilizator_contact" for="user">Utilizator:</label>
         <input
+          class="input_utilizator_contact"
           type="text"
           name="user"
           id="user"
@@ -38,8 +46,9 @@
           required
         />
         <br />
-        Email:
+        <label class="email_contact" for="email"> Email:</label>
         <input
+          class="input_email_contact"
           type="email"
           name="email"
           id="email"
@@ -47,17 +56,27 @@
           required
         />
         <br />
-        Subject:
-        <textarea name="text" id="text" cols="10" rows="5"></textarea> <br />
-        <input type="submit" value="Trimite" />
+        <label class="subiect_contact" for="text">Subiect:</label>
+        <textarea
+          class="textarea_subiect_contact"
+          name="text"
+          id="text"
+          cols="10"
+          rows="5"
+        ></textarea>
+        <br />
+        <input class="sumbit_contact" type="submit" value="Trimite" />
       </form>
     </div>
+
+    <hr />
 
     <div>
       <section class="footer">
         <footer>
           <p>
-            <span><strong>Să ne conectăm!</strong></span> <br />
+            <span class="titlu_footer"><strong>Să ne conectăm!</strong></span>
+            <br />
             <br />
 
             Dacă aveți întrebări sau dacă doriți să revizuiți mai multe din
@@ -65,7 +84,7 @@
             pagina ”Contact” sau prin e-mail la barganecaterina@yahoo.com. De
             asemenea, puteți găsi portofoliul meu și alte informații de contact
             pe contul meu
-            <span
+            <span class="github_link"
               ><a href=" https://github.com/Ecaterina1991" target="_blank"
                 >GitHub</a
               ></span
@@ -73,6 +92,7 @@
             și contul meu
             <span
               ><a
+                class="linkedin_link"
                 href="https://www.linkedin.com/in/ecaterina-stefan-01a05b58/"
                 target="_blank"
               >
@@ -81,7 +101,7 @@
             >. Vă mulțumesc pentru că m-ați luat în considerare pentru proiectul
             dumneavoastră!
           </p>
-          <p>Copyright &copy; Learn PHP 2023</p>
+          <p class="copyright">Copyright &copy; Learn PHP 2023</p>
         </footer>
       </section>
     </div>

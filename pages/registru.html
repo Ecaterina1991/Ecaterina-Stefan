@@ -8,33 +8,41 @@
 
     <title>Înregistrare</title>
   </head>
-  <body>
-    <div>
-      <header>
-        <img src="../assets/img/es.png" alt="logo" title="logo" width="150px" />
-  </head>
-  <h2>Înregistrare</h2>
-      </header>
-    </div>
 
-    <div id="nav">
-      <nav>
+  <body>
+    <div class="header_nav_wrapper">
+      <header class="header_logo_main_title">
+        <img
+          class="logo"
+          src="../assets/img/es.png"
+          alt="logo"
+          title="logo"
+          width="150px"
+        />
+
+        <h2 class="main_title">Înregistrare</h2>
+      </header>
+
+      <nav class="nav_bar">
         <ul>
-          <li><a href="../index.html">Pagina de index</a>
-          <a href="./despre_mine.html">Despre mine</a>
-          <a href="./portofoliu.html">Portofoliu</a>
-          <a href="./contact.html">Contact</a></li>
+          <li>
+            <a href="../index.html">Pagina de index</a>
+            <a href="./despre_mine.html">Despre mine</a>
+            <a href="./portofoliu.html">Portofoliu</a>
+            <a href="./contact.html">Contact</a>
+          </li>
         </ul>
       </nav>
     </div>
 
     <hr />
 
-    <div>
-      <h2>Formular de înregistrare</h2>
+    <div class="formular_inregistrare_wrapper">
+      <h2 class="formular_inregistrare_nume">Formular de înregistrare</h2>
       <form action="script.php" method="Post">
-        <label for="nume">Nume:</label>
+        <label class="nume_inregistrare" for="nume">Nume:</label>
         <input
+          class="input_nume_inregistrare"
           type="text"
           id="nume"
           name="nume"
@@ -42,8 +50,9 @@
           required
         />
         <br />
-        <label for="prenume">Prenume</label>
+        <label class="prenume_inregistrare" for="prenume">Prenume</label>
         <input
+          class="input_prenume_inregistrare"
           type="text"
           id="prenume"
           name="prenume"
@@ -51,8 +60,9 @@
           required
         />
         <br />
-        <label for="email">Email:</label>
+        <label class="email_inregistrare" for="email">Email:</label>
         <input
+          class="input_email_inregistrare"
           type="email"
           id="email"
           name="email"
@@ -60,8 +70,9 @@
           required
         />
         <br />
-        <label for="parola">Parola</label>
+        <label class="parola_inregistrare" for="parola">Parola</label>
         <input
+          class="input_parola_inregistrare"
           type="password"
           id="parola"
           name="parola"
@@ -69,8 +80,11 @@
           required
         />
         <br />
-        <label for="confirm_parola">Confirma parola</label>
+        <label class="confirm_parola" for="confirm_parola"
+          >Confirma parola</label
+        >
         <input
+          class="input_confirm_parola"
           type="password"
           id="confirm_parola"
           name="confirm-parola"
@@ -78,15 +92,18 @@
           required
         />
         <br />
-        <input type="submit" value="Submit" />
+        <input class="submit_inregistrare" type="submit" value="Submit" />
       </form>
     </div>
+
+    <hr />
 
     <div>
       <section class="footer">
         <footer>
           <p>
-            <span><strong>Să ne conectăm!</strong></span> <br />
+            <span class="titlu_footer"><strong>Să ne conectăm!</strong></span>
+            <br />
             <br />
 
             Dacă aveți întrebări sau dacă doriți să revizuiți mai multe din
@@ -94,13 +111,13 @@
             pagina ”Contact” sau prin e-mail la barganecaterina@yahoo.com. De
             asemenea, puteți găsi portofoliul meu și alte informații de contact
             pe contul meu
-            <span
+            <span class="github_link"
               ><a href=" https://github.com/Ecaterina1991" target="_blank"
                 >GitHub</a
               ></span
             >
             și contul meu
-            <span
+            <span class="linkedin_link"
               ><a
                 href="https://www.linkedin.com/in/ecaterina-stefan-01a05b58/"
                 target="_blank"
@@ -110,7 +127,7 @@
             >. Vă mulțumesc pentru că m-ați luat în considerare pentru proiectul
             dumneavoastră!
           </p>
-          <p>Copyright &copy; Learn PHP 2023</p>
+          <p class="copyright">Copyright &copy; Learn PHP 2023</p>
         </footer>
       </section>
     </div>
