@@ -1,29 +1,34 @@
 /* aici o sa fie index.html si navigatia + despre mine + contact */
 
-body {
-  background-color: coral;
-  padding: 10px;
-  margin: 30px;
-}
-
 * {
   font-size: 20px;
+}
+
+section {
+  box-sizing: border-box;
+  width: 100%;
 }
 
 nav,
 a,
 li,
 ul {
+  background-color: black;
   list-style-type: none;
   float: right;
   padding: -25px;
-  margin: 20px;
+  margin: 8px;
   font-size: 20px;
 }
+/* am sters bulina din fata navigatiei */
 
-a {
+.nav-a {
   text-decoration: none;
+  color: #fff;
+  margin-right: 60px;
 }
+/* am eliminat underline-ul de pe elementele navigatiei
+am inserat un "gap" de aproximativ 2 cm intre elementele navigatiei */
 
 #prima_sectiune {
   float: right;
@@ -32,11 +37,32 @@ a {
   padding-top: 20px;
 }
 
+/* am centrat textul cu text-align: center */
+
+#prima_sectiune p {
+  font-size: 18px;
+  text-align: center;
+}
+
+body {
+  background-color: #ffccb9;
+  padding: 10px;
+  margin: 30px;
+  max-width: 1020px;
+  height: 100vh;
+}
+
 #a_doua_sectiune p {
   text-align: center;
-  font-size: 20px;
-  color: bisque;
+  font-size: 19px;
+  color: rgb(29, 22, 14);
   /* border: 1px solid red; */
+}
+
+.nume_sectiune,
+.nume_statut {
+  color: red;
+  font-size: 18px;
 }
 
 .logo {
@@ -47,31 +73,67 @@ h2 {
   text-align: center;
 }
 
-/* .prima-foto {
-  display: inline-block;
-  float: right;
+/* .header_nav_wrapper {
+  background-color: blue;
 } */
 
-.header_nav_wrapper {
-  background-color: blue;
+/* /////////////////////////////////////// */
+#text_a_doua_sectiune {
+  float: right;
+  box-sizing: border-box;
+  border-right: 1px solid gray;
+  width: 500px;
+  padding: 0 10px 0 0;
+  margin-bottom: 30px;
+  vertical-align: top;
 }
 
-.nume_sectiune {
-  color: red;
-  font-size: 19px;
+#prima-foto {
+  width: 300px;
+  float: right;
+  margin-left: auto;
+  margin-right: 0;
+  text-align: center;
 }
 
-.nume_statut {
-  color: red;
+#prima-foto img {
+  width: 300px;
+  padding: 30px 0 30px 10px;
+  border-radius: 120px;
+  display: inline-block;
+  /* vertical-align: middle; */
 }
 
 .footer {
   font-size: 20px;
   background-color: black;
   color: bisque;
+  clear: right;
+  padding: 20px;
+}
+
+.titlu_footer {
+  float: right;
+  margin-right: 242px;
+}
+
+.footer,
+.footer-a,
+.li,
+.ul {
+  background-color: black;
+  list-style-type: none;
+  float: right;
+  font-size: 20px;
 }
 
 .copyright {
   font-size: 20px;
-  color: red;
+  color: #fff;
+}
+
+.footer-a {
+  text-decoration: none;
+  color: #fff;
+  margin-right: 60px;
 }
