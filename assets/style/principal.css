@@ -1,5 +1,4 @@
 /* aici o sa fie index.html si navigatia + despre mine + contact */
-
 * {
   font-size: 20px;
 }
@@ -9,7 +8,20 @@ section {
   width: 100%;
 }
 
-nav,
+body {
+  background-color: #ffccb9;
+  padding: 10px;
+  margin: 30px;
+  /* max-width: 1020px; */
+}
+
+
+.main-container {
+  height: 100vh;
+  width: 100%;
+  
+}
+
 a,
 li,
 ul {
@@ -44,20 +56,18 @@ am inserat un "gap" de aproximativ 2 cm intre elementele navigatiei */
   text-align: center;
 }
 
-body {
-  background-color: #ffccb9;
-  padding: 10px;
-  margin: 30px;
-  max-width: 1020px;
-  height: 100vh;
-}
-
 #a_doua_sectiune p {
   text-align: center;
   font-size: 19px;
   color: rgb(29, 22, 14);
-  /* border: 1px solid red; */
-}
+  
+} 
+
+/* 
+#a_doua_sectiune {
+  margin: 0 auto;
+  float: none;
+} */
 
 .nume_sectiune,
 .nume_statut {
@@ -73,12 +83,14 @@ h2 {
   text-align: center;
 }
 
+/* Mai jos am o versiune alternativa de aranjare a celei de-a doua sectiuni cu float, dar intrucat nu am reusit sa centrez containerul principal, am incercat cu flexbox si am pastrat versiunea flexbox  */
+
 /* .header_nav_wrapper {
   background-color: blue;
 } */
 
 /* /////////////////////////////////////// */
-#text_a_doua_sectiune {
+/* #text_a_doua_sectiune {
   float: right;
   box-sizing: border-box;
   border-right: 1px solid gray;
@@ -102,7 +114,46 @@ h2 {
   border-radius: 120px;
   display: inline-block;
   /* vertical-align: middle; */
+} */
+
+.section-2-column {
+  justify-content: center;
+  align-items: center;
 }
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.content-container {
+  justify-content: center;
+  align-items: center;
+  padding: 30px 20px;
+  margin-bottom: 30px;
+}
+
+.first-col-left, .first-col-rigth {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0px;
+}
+
+.prima-foto img {
+  border-radius: 120px;
+  width: 300px;
+  height: auto;
+}
+
+.text_a_doua_sectiune {
+  width: 50%;
+  margin-left: 40px;
+}
+
+/* ///////////////////////////////////////////////// */
 
 .footer {
   font-size: 20px;
@@ -110,6 +161,7 @@ h2 {
   color: bisque;
   clear: right;
   padding: 20px;
+
 }
 
 .titlu_footer {
