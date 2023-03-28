@@ -98,7 +98,7 @@
                 >ANAF</a
               >
               <a href="https://www.google.com/" class="footer-a">Google</a>
-              <a href="#" class="footer-a">Termeni si conditii de utilizare</a>
+              <a href="pages/termeni.php" class="footer-a">Termeni si conditii de utilizare</a>
             </li>
           </ul>
           <p></p>
