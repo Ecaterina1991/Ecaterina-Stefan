@@ -22,6 +22,8 @@ body {
   
 }
 
+
+
 a,
 li,
 ul {
@@ -32,15 +34,14 @@ ul {
   margin: 8px;
   font-size: 20px;
 }
-/* am sters bulina din fata navigatiei */
+
 
 .nav-a {
   text-decoration: none;
   color: #fff;
   margin-right: 60px;
 }
-/* am eliminat underline-ul de pe elementele navigatiei
-am inserat un "gap" de aproximativ 2 cm intre elementele navigatiei */
+
 
 #prima_sectiune {
   float: right;
@@ -188,4 +189,37 @@ h2 {
   text-decoration: none;
   color: #fff;
   margin-right: 60px;
+}
+
+/*?Stilizare Termeni si conditii/////////// */
+
+.titlu-termeni {
+  font-size: 24px;
+  font-style: bold;
+}
+
+.main-termeni {
+  margin: 10px 40px;
+  padding: 20px;
+  font-size: 20px;
+  line-height: normal;
+  
+}
+
+.termeni-front-text {
+  text-align: center;
+  width: 100%;
+  background-color: rgb(233, 213, 188);
+  border: 1px solid rgb(143, 109, 109);
+}
+
+.termeni-front-text-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+dt {
+  font-weight: bold;
+  size: 32px;
 }

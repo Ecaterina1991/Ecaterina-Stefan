@@ -84,7 +84,7 @@
 
     <!-- ............................................................. -->
 
-    <div>
+    
       <section class="footer">
         <footer>
           <span class="titlu_footer"><strong>Link-uri utile:</strong></span>
