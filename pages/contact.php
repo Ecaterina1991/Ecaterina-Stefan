@@ -31,7 +31,7 @@
             width="150px"
         /></a>
 
-        <h2 class="main_title">Contact</h2>
+        <h1 class="main_title">Contact</h1>
       </header>
 
       <nav class="nav_bar">

@@ -19,7 +19,7 @@
       <header class="header_logo_main_title">
         <a href="../index.html"><img class="logo" src="../assets/img/es.png" alt="logo" title="logo" width="150px" /></a>
         
-        <h2 class="main_title">Despre mine</h2>
+        <h1 class="main_title">Despre mine</h1>
      </header>
    
       <nav class="nav_bar">

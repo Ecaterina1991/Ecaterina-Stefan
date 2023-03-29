@@ -27,7 +27,7 @@
           title="logo"
           width="120px"
         />
-        <h2 class="main_title">Primul meu blog</h2>
+        <h1 class="main_title">Primul meu blog</h1>
       </header>
 
       <nav class="nav_bar">

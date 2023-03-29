@@ -80,8 +80,9 @@ ul {
   float: left;
 }
 
-h2 {
+h1 {
   text-align: center;
+  font-weight: bold;
 }
 
 /* Mai jos am o versiune alternativa de aranjare a celei de-a doua sectiuni cu float, dar intrucat nu am reusit sa centrez containerul principal, am incercat cu flexbox si am pastrat versiunea flexbox  */
@@ -214,14 +215,22 @@ h2 {
 }
 
 .termeni-front-text-wrapper {
-  display: flex;
+  /* display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
+
+  clear: right;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 dt {
   font-weight: bold;
   size: 32px;
+}
+
+.list-termeni {
+  clear: right;
 }
 
 /* ///////////////////////////////////////// */

@@ -21,15 +21,29 @@
 </head>
 <body>
 
-  <h2 class="titlu-termeni">Termeni și condiții</h2>
+ <section class="main-container">
+    <div class="header_nav_wrapper">
+      <header class="header_logo_main_title">
+        <img
+          class="logo"
+          src="../assets/img/es.png"
+          alt="logo"
+          title="logo"
+          width="120px"
+        />
+        <h1 class="main_title">Termeni și condiții</h1>
+      </header>
+
+  <!-- <h2 class="titlu-termeni"></h2> -->
 
   <nav class="nav_bar">
         <ul>
           <li>
-            <a href="../index.php">Acasă</a>
-            <a href="./despre_mine.php">Despre mine</a>
-            <a href="./registru.php">Inregistrare</a>
-            <a href="./contact.php">Contact</a>
+            <a href="../index.php" class="nav-a">Acasă</a>
+            <a href="./despre_mine.php" class="nav-a">Despre mine</a>
+            <a href="./registru.php" class="nav-a">Portofoliu</a>
+            <a href="./portofoliu.php" class="nav-a">Inregistrare</a>
+            <a href="./contact.php" class="nav-a">Contact</a>
           </li>
         </ul>
       </nav>
@@ -45,7 +59,7 @@
 </div>
 
 
-<dl>
+<dl class="list-termeni">
   <dt>Drepturile de autor
     <dd>Toate informațiile, conținutul și materialele de pe website-ul meu sunt protejate de drepturile de autor și nu pot fi reproduse sau utilizate în orice scop comercial fără permisiunea mea prealabilă.</dd>
   </dt>

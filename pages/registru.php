@@ -27,7 +27,7 @@
             width="150px"
         /></a>
 
-        <h2 class="main_title">Înregistrare</h2>
+        <h1 class="main_title">Înregistrare</h1>
       </header>
 
       <nav class="nav_bar">
