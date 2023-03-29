@@ -60,38 +60,38 @@
 
 
 <dl class="list-termeni">
-  <dt>Drepturile de autor
+  <dt class="dt-termeni">Drepturile de autor</dt>
     <dd>Toate informațiile, conținutul și materialele de pe website-ul meu sunt protejate de drepturile de autor și nu pot fi reproduse sau utilizate în orice scop comercial fără permisiunea mea prealabilă.</dd>
-  </dt>
+  
   <br>
-  <dt>Conținutul website-ului
+  <dt>Conținutul website-ului </dt>
     <dd>
      Toate informațiile și conținutul de pe website sunt      oferite în scopuri informative și educaționale. Nu      garantez că informațiile de pe website sunt complete,      exacte sau actualizate. Utilizarea informațiilor de pe      website se face pe propriul risc.</dd>
-  </dt>
+ 
   <br>
-  <dt>Utilizarea website-ului
+  <dt>Utilizarea website-ului</dt>
     <dd>Utilizarea website-ului meu este permisă numai în scopuri legale și conform cu acești termeni și condiții. Nu aveți permisiunea să utilizați website-ul meu pentru a publica sau distribui conținut ilegal sau inadecvat.</dd>
-  </dt>
+  
   <br>
-  <dt>Link-uri către alte website-uri
+  <dt>Link-uri către alte website-uri</dt>
     <dd>
      Website-ul meu poate conține link-uri către alte      website-uri care nu sunt deținute sau controlate de mine.      Nu sunt responsabil pentru conținutul sau practicile de      confidențialitate ale acestor website-uri.</dd>
-  </dt>
+  
   <br>
-  <dt>Garanții
+  <dt>Garanții</dt>
     <dd>
 Nu ofer garanții și nu asum responsabilitatea pentru orice pierderi sau daune rezultate din utilizarea website-ului meu sau a informațiilor de pe acesta.</dd>
-  </dt>
+  
   <br>
-  <dt>Modificări
+  <dt>Modificări</dt>
     <dd>
 Pot modifica termenii și condițiile de pe website în orice moment și fără notificare prealabilă. Prin utilizarea website-ului meu, sunteți de acord cu termenii și condițiile actualizate.</dd>
-  </dt>
+  
   <br>
-  <dt>Dispute și legi aplicabile
+  <dt>Dispute și legi aplicabile</dt>
     <dd>
 Orice dispute legate de utilizarea website-ului meu vor fi rezolvate prin mijloace amiabile sau prin intermediul instanțelor competente. Termenii și condițiile afișate aici sunt supuse legilor din România.</dd>
-</dt>
+
 </dl>
 
   </p>
