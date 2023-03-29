@@ -23,6 +23,17 @@
 
   <h2 class="titlu-termeni">Termeni și condiții</h2>
 
+  <nav class="nav_bar">
+        <ul>
+          <li>
+            <a href="../index.php">Acasă</a>
+            <a href="./despre_mine.php">Despre mine</a>
+            <a href="./registru.php">Inregistrare</a>
+            <a href="./contact.php">Contact</a>
+          </li>
+        </ul>
+      </nav>
+
   <main class="main-termeni">
     <div class="termeni-front-text-wrapper">
 <div class="termeni-front-text">
@@ -41,7 +52,7 @@
   <br>
   <dt>Conținutul website-ului
     <dd>
-Toate informațiile și conținutul de pe website sunt oferite în scopuri informative și educaționale. Nu garantez că informațiile de pe website sunt complete, exacte sau actualizate. Utilizarea informațiilor de pe website se face pe propriul risc.</dd>
+     Toate informațiile și conținutul de pe website sunt      oferite în scopuri informative și educaționale. Nu      garantez că informațiile de pe website sunt complete,      exacte sau actualizate. Utilizarea informațiilor de pe      website se face pe propriul risc.</dd>
   </dt>
   <br>
   <dt>Utilizarea website-ului
@@ -50,7 +61,7 @@ Toate informațiile și conținutul de pe website sunt oferite în scopuri infor
   <br>
   <dt>Link-uri către alte website-uri
     <dd>
-Website-ul meu poate conține link-uri către alte website-uri care nu sunt deținute sau controlate de mine. Nu sunt responsabil pentru conținutul sau practicile de confidențialitate ale acestor website-uri.</dd>
+     Website-ul meu poate conține link-uri către alte      website-uri care nu sunt deținute sau controlate de mine.      Nu sunt responsabil pentru conținutul sau practicile de      confidențialitate ale acestor website-uri.</dd>
   </dt>
   <br>
   <dt>Garanții
@@ -68,24 +79,7 @@ Pot modifica termenii și condițiile de pe website în orice moment și fără 
 Orice dispute legate de utilizarea website-ului meu vor fi rezolvate prin mijloace amiabile sau prin intermediul instanțelor competente. Termenii și condițiile afișate aici sunt supuse legilor din România.</dd>
 </dt>
 </dl>
-<!-- 
-  <ol>
-    <li class="li-term">Drepturile de autor
-Toate informațiile, conținutul și materialele de pe website-ul meu sunt protejate de drepturile de autor și nu pot fi reproduse sau utilizate în orice scop comercial fără permisiunea mea prealabilă.</li>
-    <li class="li-term">Conținutul website-ului
-Toate informațiile și conținutul de pe website sunt oferite în scopuri informative și educaționale. Nu garantez că informațiile de pe website sunt complete, exacte sau actualizate. Utilizarea informațiilor de pe website se face pe propriul risc.</li>
-    <li class="li-term">Utilizarea website-ului
-Utilizarea website-ului meu este permisă numai în scopuri legale și conform cu acești termeni și condiții. Nu aveți permisiunea să utilizați website-ul meu pentru a publica sau distribui conținut ilegal sau inadecvat.</li>
-    <li class="li-term">Link-uri către alte website-uri
-Website-ul meu poate conține link-uri către alte website-uri care nu sunt deținute sau controlate de mine. Nu sunt responsabil pentru conținutul sau practicile de confidențialitate ale acestor website-uri.</li>
-    <li class="li-term">Garanții
-Nu ofer garanții și nu asum responsabilitatea pentru orice pierderi sau daune rezultate din utilizarea website-ului meu sau a informațiilor de pe acesta.</li>
-    <li class="li-term">Modificări
-Pot modifica acești termeni și condiții în orice moment și fără notificare prealabilă. Prin utilizarea website-ului meu, sunteți de acord cu termenii și condițiile actualizate.</li>
-    <li class="li-term">Dispute și legi aplicabile
-Orice dispute legate de utilizarea website-ului meu vor fi rezolvate prin mijloace amiabile sau prin intermediul instanțelor competente. Acești termeni și condiții sunt supuși legilor din România.</li>
 
-  </ol> -->
   </p>
   </main>
 

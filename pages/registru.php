@@ -33,10 +33,10 @@
       <nav class="nav_bar">
         <ul>
           <li>
-            <a href="../index.html">Acasă</a>
-            <a href="./despre_mine.html">Despre mine</a>
-            <a href="./portofoliu.html">Portofoliu</a>
-            <a href="./contact.html">Contact</a>
+            <a href="../index.php">Acasă</a>
+            <a href="./despre_mine.php">Despre mine</a>
+            <a href="./portofoliu.php">Portofoliu</a>
+            <a href="./contact.php">Contact</a>
           </li>
         </ul>
       </nav>

@@ -24,10 +24,10 @@
    
       <nav class="nav_bar">
         <ul>
-          <li><a href="../index.html">Acasă</a>
-          <a href="./portofoliu.html">Portofoliu</a>
-          <a href="./registru.html">Inregistrare</a>
-          <a href="./contact.html">Contact</a></li>
+          <li><a href="../index.php">Acasă</a>
+          <a href="./portofoliu.php">Portofoliu</a>
+          <a href="./registru.php">Inregistrare</a>
+          <a href="./contact.php">Contact</a></li>
         </ul>
       </nav>
      </div>
