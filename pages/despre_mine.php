@@ -19,7 +19,7 @@
   <section class="main-container  main-container-despre-mine">
     <div class="header_nav_wrapper">
       <header class="header_logo_main_title">
-        <a href="../index.html"><img class="logo" src="../assets/img/es.png" alt="logo" title="logo" width="150px" /></a>
+        <a href="../index.php"><img class="logo" src="../assets/img/es.png" alt="logo" title="logo" width="150px" /></a>
         
         <h1 class="main_title">Despre mine</h1>
      </header>
@@ -67,9 +67,10 @@
     <!-- primul element dd de la educatie -->
     <dd> 
       <ul>
-        <strong>STUDII PREUNIVERSITARE ȘI UNIVERSITARE </strong> <br>
-           <small>nivel EQF 6-7 </small>
-        
+        <strong>STUDII PREUNIVERSITARE ȘI UNIVERSITARE </strong>
+           <sup>nivel EQF 6-7 </sup>
+           <br>
+        <br>
         <em> septembrie 2011 – septembrie 2016</em></li>
         <li>Universitatea „Dunarea de Jos” - Facultatea de Medicină și Farmacie, specializarea Farmacie.  
           Absolventă cu nota finală la studii și licență: 9,68.</li>
@@ -86,8 +87,9 @@
     <dd> 
   
        <ul>
-      <strong>CURSURI IT</strong>
-      
+      <strong>CURSURI IT</strong> 
+      <br>
+      <br>
       <em> martie 2023 – prezent</em>   
       <li>Learn PHP
         Sunt antrenată momentan în cursul ”Learn PHP” în urma căruia voi obține competențe ”Fullstack Developer”, cunoștințe avansate de înțelegere/lucru practic cu PHP/Laravel și Certificarea Internațională Zend Certified Engineer.</li>

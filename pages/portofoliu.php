@@ -21,7 +21,7 @@
   <body>
     <div class="header_nav_wrapper">
       <header class="header_logo_main_title">
-        <a href="../index.html"
+        <a href="../index.php"
           ><img
             class="logo"
             src="../assets/img/es.png"

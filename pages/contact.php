@@ -23,7 +23,7 @@
     <section class="main-container">
     <div class="header_nav_wrapper ">
       <header class="header_logo_main_title header-contact">
-        <a href="../index.html"
+        <a href="../index.php"
           ><img
             class="logo"
             src="../assets/img/es.png"

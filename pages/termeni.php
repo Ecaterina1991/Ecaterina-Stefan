@@ -24,13 +24,14 @@
  <section class="main-container">
     <div class="header_nav_wrapper">
       <header class="header_logo_main_title">
-        <img
+        <a href="../index.php">   <img
           class="logo"
           src="../assets/img/es.png"
           alt="logo"
           title="logo"
           width="120px"
-        />
+        /></a>
+     
         <h1 class="main_title">Termeni și condiții</h1>
       </header>
 
@@ -39,11 +40,15 @@
   <nav class="nav_bar">
         <ul class="ul-index">
           <li class="li-index">
-            <a href="../index.php" class="nav-a">Acasă</a>
-            <a href="./despre_mine.php" class="nav-a">Despre mine</a>
-            <a href="./registru.php" class="nav-a">Portofoliu</a>
-            <a href="./portofoliu.php" class="nav-a">Inregistrare</a>
             <a href="./contact.php" class="nav-a">Contact</a>
+            <a href="./portofoliu.php" class="nav-a">Inregistrare</a>
+            <a href="./registru.php" class="nav-a">Portofoliu</a>
+            <a href="./despre_mine.php" class="nav-a">Despre mine</a>
+            <a href="../index.php" class="nav-a">Acasă</a>
+            
+            
+            
+            
           </li>
         </ul>
       </nav>
