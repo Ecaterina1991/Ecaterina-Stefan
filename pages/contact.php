@@ -13,15 +13,16 @@
     />
     <link
       rel="stylesheet"
-      href="../assets/style/principal.css"
+      href="../assets/style/register_contact.css"
       type="text/css"
     />
 
     <title>Contact</title>
   </head>
   <body>
-    <div class="header_nav_wrapper">
-      <header class="header_logo_main_title">
+    <section class="main-container">
+    <div class="header_nav_wrapper ">
+      <header class="header_logo_main_title header-contact">
         <a href="../index.html"
           ><img
             class="logo"
@@ -34,22 +35,25 @@
         <h1 class="main_title">Contact</h1>
       </header>
 
-      <nav class="nav_bar">
-        <ul>
-          <li>
-            <a href="../index.php">Acasă</a>
-            <a href="./despre_mine.php">Despre mine</a>
-            <a href="./portofoliu.php">Portofoliu</a>
-            <a href="./registru.php">Inregistrare</a>
+      <nav class="nav_bar nav-contact">
+        <ul class="ul-index">
+          <li class="li-index"> 
+            <a href="./registru.php" class="nav-a">Inregistrare</a> 
+            <a href="./portofoliu.php" class="nav-a">Portofoliu</a>
+            <a href="./despre_mine.php" class="nav-a">Despre mine</a>
+            <a href="../index.php" class="nav-a">Acasă</a>
+            
+           
+           
           </li>
         </ul>
       </nav>
     </div>
 
-    <hr />
+
 
     <div id="form">
-      <form action="#" method="get">
+      <form action="#" method="get" name="contact-form">
         <label class="utilizator_contact" for="user">Utilizator:</label>
         <input
           class="input_utilizator_contact"
@@ -60,6 +64,7 @@
           required
         />
         <br />
+        <br>
         <label class="email_contact" for="email"> Email:</label>
         <input
           class="input_email_contact"
@@ -70,54 +75,45 @@
           required
         />
         <br />
-        <label class="subiect_contact" for="text">Subiect:</label>
+        <br>
+        <label class="subiect_contact" for="text">Subiect:</label> <br>
         <textarea
           class="textarea_subiect_contact"
           name="text"
           id="text"
-          cols="10"
-          rows="5"
+          cols="30"
+          rows="10"
         ></textarea>
         <br />
+        <br>
         <input class="submit_contact" type="submit" value="Trimite" />
       </form>
     </div>
 
-    <hr />
-
+  
     <div>
-      <section class="footer">
+  <section class="footer">
         <footer>
-          <p>
-            <span class="titlu_footer"><strong>Să ne conectăm!</strong></span>
-            <br />
-            <br />
-
-            Dacă aveți întrebări sau dacă doriți să revizuiți mai multe din
-            munca mea, vă rog să nu ezitați să mă contactați prin formularul din
-            pagina ”Contact” sau prin e-mail la barganecaterina@yahoo.com. De
-            asemenea, puteți găsi portofoliul meu și alte informații de contact
-            pe contul meu
-            <span class="github_link"
-              ><a href=" https://github.com/Ecaterina1991" target="_blank"
-                >GitHub</a
-              ></span
-            >
-            și contul meu
-            <span
-              ><a
-                class="linkedin_link"
-                href="https://www.linkedin.com/in/ecaterina-stefan-01a05b58/"
-                target="_blank"
+          <span class="titlu_footer"><strong>Link-uri utile:</strong></span>
+          <br />
+          <br />
+          <ul class="ul">
+            <li class="li">
+              <a
+                href="https://www.anaf.ro/anaf/internet/ANAF/acasa/!ut/p/a1/hc6xDoIwEAbgZ2Ho2jtRCHHDhUocxEXoYkpSCgZbUiq8vtU4OCjedn--y3_AoQSuxdQp4TqjRf_ceXxhKxazMAlzZAViEe32pyg7ImYbDyoP8Mek-O_-DHyRYPwGCxU5cNWb-vVulep6nSjgVjbSSkvv1setc8O4JUhwnmcqtGioNQS_-daMDsoPBsOtxGvUT4c0CB5h5prT/dl5/d5/L2dBISEvZ0FBIS9nQSEh/"
+                class="footer-a"
+                >ANAF</a
               >
-                linkedin</a
-              ></span
-            >. Vă mulțumesc pentru că m-ați luat în considerare pentru proiectul
-            dumneavoastră!
+              <a href="https://www.google.com/" class="footer-a">Google</a>
+              <a href="termeni.php" class="footer-a">Termeni si conditii de utilizare</a>
+            </li>
+          </ul>
+          <p></p>
+            <p><?php echo "Copyright &copy; Learn PHP - " . date("Y"); ?></p>
           </p>
-          <p class="copyright">Copyright &copy; Learn PHP 2023</p>
         </footer>
       </section>
-    </div>
+   </div>
+  </section>
   </body>
 </html>

@@ -16,6 +16,7 @@
 
     <title>Pagina de Blog</title>
   </head>
+  
   <body>
     <section class="main-container">
     <div class="header_nav_wrapper">
@@ -31,12 +32,12 @@
       </header>
 
       <nav class="nav_bar">
-        <ul>
-          <li>
-            <a href="pages/despre_mine.php" class="nav-a">Despre mine</a>
+        <ul class="ul-index">
+          <li class="li-index">
+            <a href="pages/contact.php" class="nav-a">Contact</a> 
+            <a href="pages/registru.php" class="nav-a">Inregistrare</a> 
             <a href="pages/portofoliu.php" class="nav-a">Portofoliu</a>
-            <a href="pages/registru.php" class="nav-a">Inregistrare</a>
-            <a href="pages/contact.php" class="nav-a">Contact</a>
+            <a href="pages/despre_mine.php" class="nav-a">Despre mine</a>
           </li>
         </ul>
       </nav>

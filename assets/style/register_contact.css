@@ -1,1 +1,130 @@
-/* aici o sa fie doar paginile de login si register */
+/* aici o sa fie doar paginile de contact si register */
+
+/*?Contact ////////////////////// */
+
+* {
+  font-size: 20px;
+}
+
+section {
+  box-sizing: border-box;
+  width: 100%;
+}
+
+body {
+  background-color: #ffccb9;
+  padding: 10px;
+  margin: 30px;
+}
+
+.main-container {
+  width: 100%;
+}
+
+.main_title {
+  font-size: 32px;
+}
+
+h1 {
+  text-align: center;
+  font-weight: bold;
+}
+
+.nav-a,
+.ul-index,
+.li-index {
+  background-color: black;
+  list-style-type: none;
+  float: right;
+  padding: -25px;
+  margin: 8px;
+  font-size: 20px;
+}
+
+.nav-a {
+  text-decoration: none;
+  color: #fff;
+  margin-right: 60px;
+}
+
+.logo {
+  float: left;
+}
+
+h1 {
+  text-align: center;
+  font-weight: bold;
+}
+
+#form {
+  clear: both;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding-bottom: 30px;
+  padding-top: 70px;
+  margin: 30px;
+}
+
+.input_email_contact {
+  margin-left: 25px;
+}
+
+/*?FOOTER ////////////////////////////////// */
+
+.footer {
+  font-size: 20px;
+  background-color: black;
+  color: bisque;
+  clear: right;
+  padding: 20px;
+}
+
+.titlu_footer {
+  float: right;
+  margin-right: 242px;
+}
+
+.footer,
+.footer-a,
+.li,
+.ul {
+  /* background-color: black; */
+  list-style-type: none;
+  float: right;
+  font-size: 20px;
+}
+
+.copyright {
+  font-size: 20px;
+  color: #fff;
+}
+
+.footer-a {
+  text-decoration: none;
+  color: #fff;
+  margin-right: 60px;
+}
+
+/*? ////////////Inregistrare */
+
+.formular_inregistrare_wrapper {
+  clear: both;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+
+input,
+label {
+  margin-bottom: 10px;
+}
+
+.submit_inregistrare {
+  margin-top: 25px;
+}
+
+.input_nume_inregistrare {
+  margin-left: 20px;
+}

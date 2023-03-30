@@ -14,6 +14,7 @@
       type="image/png"
       sizes="16*16"
     />
+    <link rel="stylesheet" href="../assets/style/principal.css" type="text/css" />
 
     <title>Portofoliu</title>
   </head>
@@ -29,21 +30,21 @@
             width="150px"
         /></a>
 
-        <h2 class="main_title">Portofoliu</h2>
+        <h1 class="main_title">Portofoliu</h1>
       </header>
 
       <nav class="nav_bar">
-        <ul>
-          <li>
-            <a href="../index.php">Acasă</a>
-            <a href="./despre_mine.php">Despre mine</a>
-            <a href="./registru.php">Inregistrare</a>
-            <a href="./contact.php">Contact</a>
+        <ul class="ul-index">
+          <li class="li-index"> 
+            <a href="./contact.php" class="nav-a">Contact</a>
+            <a href="./registru.php" class="nav-a">Inregistrare</a>  
+            <a href="./despre_mine.php" class="nav-a">Despre mine</a> 
+            <a href="../index.php" class="nav-a">Acasă</a>
           </li>
         </ul>
       </nav>
     </div>
-    <hr />
+  
 
     <div class="portofolio-wrapper">
       <section class="portofolio-sectiune">
@@ -52,7 +53,7 @@
 
           <ul class="lista_portofoliu">
             <li>
-              <a href="https://github.com/Ecaterina1991/3Dprint" target="_blank"
+              <a href="https://github.com/Ecaterina1991/3Dprint" target="_blank" class="a-portofoliu" 
                 >Cod 3D Print Website</a
               >
               - structura HTML a unui website destinat comercializării
@@ -63,7 +64,7 @@
             <li>
               <a
                 href="https://github.com/Ecaterina1991/Painting-map-project"
-                target="_blank"
+                target="_blank" class="a-portofoliu" 
                 >Painting Map Project</a
               >
               - Un mic proiect pe care l-am creat cu ajutorul bibliotecii
@@ -74,7 +75,7 @@
             <li>
               <a
                 href="https://github.com/Ecaterina1991/afterschool"
-                target="_blank"
+                target="_blank" class="a-portofoliu" 
                 >Afterschool</a
               >
               - Prima pagină pentru o școală de pictură realizată cu HTML și
@@ -83,7 +84,7 @@
             <li>
               <a
                 href="https://github.com/Ecaterina1991/Advice-app"
-                target="_blank"
+                target="_blank" class="a-portofoliu" 
                 >Advice app</a
               >
               - Un mică aplicație care generează sfaturi random, creată cu
@@ -91,7 +92,7 @@
               SkillBrain Front End Developer.
             </li>
             <li>
-              <a href="https://github.com/Ecaterina1991/Figma1" target="_blank"
+              <a href="https://github.com/Ecaterina1991/Figma1" target="_blank" class="a-portofoliu" 
                 >O pagină web construită după un model de pe Figma</a
               >
               - Cea de-a doua jumătate a paginii (ultimele cinci secțiuni) a
@@ -103,7 +104,7 @@
             <li>
               <a
                 href="https://github.com/Ecaterina1991/Resume-Ecaterina-Stefan"
-                target="_blank"
+                target="_blank" class="a-portofoliu" 
                 >CV-ul meu construit după un model fix</a
               >
               - O simplă pagină construită după un model precis de pe Figma, cu
@@ -112,28 +113,28 @@
             <li>
               <a
                 href="https://github.com/Ecaterina1991/Paintings"
-                target="_blank"
+                target="_blank" class="a-portofoliu" 
                 >Paintings</a
               >
               - Mini-aplicația mea personală, care a avut simplul scop de a
               testa modul în care pot promite logica setării atributului sursă
               al unei imagini, practic asincron. Tablourile aparțin mamei mele.
               <br />
-              <a href="https://stately-horse-983646.netlify.app/"
+              <a href="https://stately-horse-983646.netlify.app/" class="a-portofoliu" 
                 >Același proiect pe Netlify</a
               >
             </li>
             <li>
               <a
                 href="https://github.com/Ecaterina1991/Agency-website"
-                target="_blank"
+                target="_blank" class="a-portofoliu" 
                 >Agency Website</a
               >
               - Un website construit în cadrul unui curs acreditat din Marea
               Britanie.
             </li>
             <li>
-              <a href="https://github.com/Ecaterina1991?" target="_blank"
+              <a href="https://github.com/Ecaterina1991?" target="_blank" class="a-portofoliu" 
                 >Alte proiecte</a
               >
               - Toate celelalte proiecte regăsite în repo-urile mele din GitHub,
@@ -145,7 +146,11 @@
             </li>
           </ul>
         </div>
-        <hr />
+
+        <br>
+
+        <h2 class="nota">(A se da click pe titluri pentru navigare in linkuri)</h2>
+      
 
         <div class="portofolio-wrapper">
           <h2 class="titlu_portofoliu">Portofoliu de UX Designer</h2>
@@ -153,21 +158,21 @@
             <li>
               <a
                 href="https://sites.google.com/view/ecaterinas-portofolio/my-ux-design-projects/the-royal-table-restaurant"
-                target="_blank"
+                target="_blank" class="a-portofoliu" 
                 >The Royal Table Restaurant</a
               >
             </li>
             <li>
               <a
                 href="https://sites.google.com/view/ecaterinas-portofolio/my-ux-design-projects/flower-shop"
-                target="_blank"
+                target="_blank" class="a-portofoliu" 
                 >Flower Shop</a
               >
             </li>
             <li>
               <a
                 href="https://sites.google.com/view/ecaterinas-portofolio/my-ux-design-projects/chef-juniors-kitchen-academy"
-                target="_blank"
+                target="_blank" class="a-portofoliu" 
                 >Chef Juniors Kitchen Academy</a
               >
             </li>
@@ -175,47 +180,36 @@
 
           <p class="nota_portofoliu">
             Notă: În domeniul Design, am cunoștințe de bază în conceperea unor
-            logouri originale, și, dacă sunteți interesați, îmi pot prezenta
-            portofoliul.
+            logouri originale.
           </p>
         </div>
       </section>
     </div>
 
-    <hr />
-
-    <div>
-      <section class="footer">
+    
+   
+  <div>
+  <section class="footer">
         <footer>
-          <p>
-            <span class="titlu_footer"><strong>Să ne conectăm!</strong></span>
-            <br />
-            <br />
-
-            Dacă aveți întrebări sau dacă doriți să revizuiți mai multe din
-            munca mea, vă rog să nu ezitați să mă contactați prin formularul din
-            pagina ”Contact” sau prin e-mail la barganecaterina@yahoo.com. De
-            asemenea, puteți găsi portofoliul meu și alte informații de contact
-            pe contul meu
-            <span class="github_link"
-              ><a href=" https://github.com/Ecaterina1991" target="_blank"
-                >GitHub</a
-              ></span
-            >
-            și contul meu
-            <span class="linkedin_link"
-              ><a
-                href="https://www.linkedin.com/in/ecaterina-stefan-01a05b58/"
-                target="_blank"
+          <span class="titlu_footer"><strong>Link-uri utile:</strong></span>
+          <br />
+          <br />
+          <ul class="ul">
+            <li class="li">
+              <a
+                href="https://www.anaf.ro/anaf/internet/ANAF/acasa/!ut/p/a1/hc6xDoIwEAbgZ2Ho2jtRCHHDhUocxEXoYkpSCgZbUiq8vtU4OCjedn--y3_AoQSuxdQp4TqjRf_ceXxhKxazMAlzZAViEe32pyg7ImYbDyoP8Mek-O_-DHyRYPwGCxU5cNWb-vVulep6nSjgVjbSSkvv1setc8O4JUhwnmcqtGioNQS_-daMDsoPBsOtxGvUT4c0CB5h5prT/dl5/d5/L2dBISEvZ0FBIS9nQSEh/"
+                class="footer-a"
+                >ANAF</a
               >
-                linkedin</a
-              ></span
-            >. Vă mulțumesc pentru că m-ați luat în considerare pentru proiectul
-            dumneavoastră!
+              <a href="https://www.google.com/" class="footer-a">Google</a>
+              <a href="termeni.php" class="footer-a">Termeni si conditii de utilizare</a>
+            </li>
+          </ul>
+          <p></p>
+            <p><?php echo "Copyright &copy; Learn PHP - " . date("Y"); ?></p>
           </p>
-          <p class="copyright">Copyright &copy; Learn PHP 2023</p>
         </footer>
       </section>
-    </div>
+   </div>
   </body>
 </html>

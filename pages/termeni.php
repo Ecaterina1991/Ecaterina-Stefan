@@ -37,8 +37,8 @@
   <!-- <h2 class="titlu-termeni"></h2> -->
 
   <nav class="nav_bar">
-        <ul>
-          <li>
+        <ul class="ul-index">
+          <li class="li-index">
             <a href="../index.php" class="nav-a">Acasă</a>
             <a href="./despre_mine.php" class="nav-a">Despre mine</a>
             <a href="./registru.php" class="nav-a">Portofoliu</a>
